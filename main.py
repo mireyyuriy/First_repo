@@ -23,3 +23,6 @@ def greet():
     return "Hello"
 
 print(greet(), "Wendy")  # Hello Wendy
+
+age = int(input("How old are you now? "))
+print("Next year you will be:", age + 1)
