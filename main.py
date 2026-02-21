@@ -18,3 +18,8 @@ user_profile = {"name": "Wendy", "status": "active"}
 print("\nUser data:")
 for key in user_profile:
     print(f"{key}: {user_profile[key]}")
+
+def greet():
+    return "Hello"
+
+print(greet(), "Wendy")  # Hello Wendy
